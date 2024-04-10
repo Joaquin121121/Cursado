@@ -1,0 +1,7 @@
+BOOTSTRAP --> divide pantalla en 12 columnas y tantas filas como querramos. Busca facil adaptabilidad para distintas pantallas
+
+Distintos breakpoints --> los distintos limites en tamaño de pantalla donde cambia el layout
+
+Cada dimension de pantalla entre breakpoints es una clase
+
+w3schools --> pag con js, html
