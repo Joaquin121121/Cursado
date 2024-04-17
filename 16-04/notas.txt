@@ -2,3 +2,49 @@ NPM: Node Package Manager -->
 
 Node --> interprete
          permite escribir backend
+
+Una funcion tambien es un objeto en js
+
+3 pilares POO: abstraccion, encapsulamiento, polimorfismo y herencia
+
+Claro, puedo explicarte cada uno de estos conceptos en el contexto de la programación orientada a objetos (POO), que son fundamentales en el desarrollo de software.
+
+1. **Abstracción**: La abstracción en programación se refiere a la capacidad de representar las características esenciales de un objeto sin mostrar los detalles innecesarios. Es como si estuvieras mirando un automóvil desde fuera; no necesitas conocer todos los detalles internos del motor para entender cómo funciona y cómo usarlo. En POO, la abstracción se logra mediante la creación de clases, que actúan como plantillas para crear objetos. Estas clases definen propiedades y comportamientos, pero ocultan los detalles de implementación.
+
+2. **Encapsulamiento**: El encapsulamiento se refiere a la capacidad de ocultar los detalles internos de un objeto y exponer solo las operaciones relevantes o interfaz pública. Esto se logra mediante el uso de modificadores de acceso, como públicos, privados y protegidos, que controlan el acceso a los datos y métodos de una clase. Al encapsular los datos dentro de una clase, se mejora la seguridad y se facilita el mantenimiento del código, ya que los cambios internos no afectan a otros componentes del programa.
+
+3. **Polimorfismo**: El polimorfismo permite que un objeto pueda comportarse de diferentes maneras en función del contexto en el que se utiliza. Esto significa que un objeto puede tomar muchas formas. Hay dos tipos de polimorfismo: el polimorfismo de sobrecarga y el polimorfismo de sobrescritura. El polimorfismo de sobrecarga se refiere a tener múltiples métodos con el mismo nombre pero diferentes parámetros dentro de una misma clase. Por otro lado, el polimorfismo de sobrescritura implica que los métodos de una clase hija pueden sobrescribir los métodos de la clase padre para adaptarse a su propio comportamiento.
+
+4. **Herencia**: La herencia es un concepto en el que una clase nueva, llamada subclase o clase derivada, puede heredar atributos y métodos de otra clase existente, llamada superclase o clase base. Esto permite la reutilización de código y la creación de una jerarquía de clases, donde las subclases pueden extender y especializar el comportamiento de la clase base. La herencia facilita la organización del código y la implementación de relaciones entre objetos.
+
+En resumen, en la programación orientada a objetos, la abstracción nos permite modelar objetos de la vida real, el encapsulamiento nos ayuda a ocultar la complejidad interna de estos objetos, el polimorfismo nos permite escribir código más flexible y reusable, y la herencia nos permite construir jerarquías de clases para reutilizar y extender el código de manera eficiente.
+
+
+Firma de metodo/funcion: el qué devuelve y el qué recibe
+
+Interfaz --> contrato que me define el comportamiento que debe tener mi clase. No incluye los atributos, solo los metodos y las funciones. Que funciones debe tener una clase
+
+Callback: JS toma funciones como objetos 
+
+Promesa: objeto que representa la respuesta de una tarea asincrona. 
+
+
+         4 estados: Pendiente: Es su estado inicial, no se ha cumplido ni rechazado.
+
+                    Cumplida: La promesa se ha resuelto satisfactoriamente.
+
+                    Rechazada: La promesa se ha completado con un error.
+
+                    Arreglada: La promesa ya no está pendiente. O bien se ha cumplido, o bien se ha rechazado.
+
+
+Autorizacion vs autenticacion: Si tenes permiso vs si tenes perfil. Ej: podes autenticarte como alumno pero no estar autorizado a hacer x cosa.
+
+Errores: 400 --> Frontend
+         500 --> Backend
+
+node_modules siempre debe estar en el git ignore --> suele ser muy pesado
+
+Las dependencies en package.json permiten saber que instalar si se ejecuta el comando npm i
+
+Siempre que hay await en una funcion, debo tener async
