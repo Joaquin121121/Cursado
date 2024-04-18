@@ -1,0 +1,10 @@
+npm init
+npm i fetch
+
+index.js --> service --> data --> entity --> id, name and email
+
+siempre que ejecuto una funcion asincrona (promesa) uso await.
+
+IIFE --> (() =>{
+
+})()
